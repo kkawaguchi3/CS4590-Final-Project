@@ -1,0 +1,16 @@
+CS 4590 Project Final Deliverable Processing Sketch
+Team SANK
+Kenta Kawaguchi, Neil Patel, Shahwaiz Nassar, Ashwin Anantharaman
+
+
+Concept: This Processing Sketch is a mini demonstration for one of the features in our Audio Wearable Device Design model. Our wearable device utilizes pitch shifting and time stretching to allow real-time modification of the song the user is currently listening to while keeping the character of the song. The rate the pitch is shifted or the rate the time is stretched is dependent on the user's heart-rate. The idea is for the user to know their current heart-rate based on the pitch and/or time shift of the music they are listening to.
+
+Since our project is Design based, our Processing sketch isn't a full implementation and is just a demonstration of non-real time pitch shifting and time stretching for a given song. This allows us to give our audience a small glimpse of one of our device's functionality. 
+
+Our Processing Sketch has one slider and two buttons. The slider represents the user's heart-rate and the two buttons represent pitch shifting and time stretching. You can click on either button to start a modified playback of the song based on the button you pressed. The rate at which the song is modified is based on the slider/heart-rate value. The higher the heart-rate, the higher the rate of the pitch/time stretch of the song. The starting heart-rate is set to 80 (bpm); thus, if you press either button while the heart-rate is set at 80, the playback of the song will be normal/non-modified. If you change the value of the heart-rate, you must press the respective button again to reflect the changes to pitch and time.  
+
+For the future, the goal for our device and for this Processing Sketch is to be able to perform real-time modification of pitch shifting and time stretching.
+
+Our Processing Sketch utilizes the TarsosDSP library which provides the pitch shifting and time stretching algorithm. Documentation for the library can be found here: https://github.com/JorenSix/TarsosDSP
+
+song.wav - Redbone by Childish Gambino 
