@@ -81,8 +81,7 @@ public void PitchShift() {
     if (dispatcher != null){
       dispatcher.stop();
     }
-    String currentDirectory;
-    currentDirectory = System.getProperty("user.dir");
+    String currentDirectory = System.getProperty("user.dir");
     System.out.println("Current working directory : "+currentDirectory);
     File inputFile = new File(currentDirectory + "/Desktop/CS4590-Final-Project/project/data/song.wav");
     AudioFormat format = AudioSystem.getAudioFileFormat(inputFile).getFormat();
@@ -129,8 +128,9 @@ public void TimeStretch() {
     if (dispatcher != null){
       dispatcher.stop();
     }
-    
-    File inputFile = new File("/Users/kentakawaguchi/Desktop/project/data/song.wav");
+    String currentDirectory = System.getProperty("user.dir");
+    System.out.println("Current working directory : "+currentDirectory);
+    File inputFile = new File(currentDirectory + "/Desktop/CS4590-Final-Project/project/data/song.wav");
     AudioFormat format = AudioSystem.getAudioFileFormat(inputFile).getFormat();
     gain = new GainProcessor(1.0);
 
