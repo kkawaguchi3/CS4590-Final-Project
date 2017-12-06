@@ -2,8 +2,11 @@ CS 4590 Project Final Deliverable Processing Sketch
 Team SANK
 Kenta Kawaguchi, Neil Patel, Shahwaiz Nassar, Ashwin Anantharaman
 
+*** The Project folder needs to be located on your Desktop for it to correctly read the song file provided in the data folder. 
 
-Concept: This Processing Sketch is a mini demonstration for one of the features in our Audio Wearable Device Design model. Our wearable device utilizes pitch shifting and time stretching to allow real-time modification of the song the user is currently listening to while keeping the character of the song. The rate the pitch is shifted or the rate the time is stretched is dependent on the user's heart-rate. The idea is for the user to know their current heart-rate based on the pitch and/or time shift of the music they are listening to.
+Concept: 
+
+This Processing Sketch is a mini demonstration for one of the features in our Audio Wearable Device Design model. Our wearable device utilizes pitch shifting and time stretching to allow real-time modification of the song the user is currently listening to while keeping the character of the song. The rate the pitch is shifted or the rate the time is stretched is dependent on the user's heart-rate. The idea is for the user to know their current heart-rate based on the pitch and/or time shift of the music they are listening to.
 
 Since our project is Design based, our Processing sketch isn't a full implementation and is just a demonstration of non-real time pitch shifting and time stretching for a given song. This allows us to give our audience a small glimpse of one of our device's functionality. 
 
